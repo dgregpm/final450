@@ -27,9 +27,12 @@ class Solution {
         while(n>0){
             h = head;
             for(let i = 0;i<n;i++){
-                
+                h = h.next;
             }
+            n--;
+            result.next = h
         }
+        return result;
     }
     
 }
