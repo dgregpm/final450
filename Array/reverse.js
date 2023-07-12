@@ -14,6 +14,8 @@ function revArr(arr) {
 console.log(revArr([1,2,3,4,5,6]));
 
 // Kata 1
+// Iterative solution
+// complexity: O(n) space: O(1)
 
 const revArr1 = (arr) => {
     let a = 0;
