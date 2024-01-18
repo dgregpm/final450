@@ -29,3 +29,13 @@ const revArr1 = (arr) => {
 }
 
 console.log(revArr1([1,2,3,4,5,6]));
+
+const revArr2 = (arr) => {
+    let lo = 0;
+    let hi = arr.length - 1;
+    while(lo<hi){
+        [arr[lo],arr[hi]] = [arr[hi],arr[lo]];
+        lo++;
+        hi--;
+    }
+}
