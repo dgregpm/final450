@@ -3,11 +3,11 @@
 
 // You must do this by modifying the input array in-place with O(1) extra memory.
 
-var reverseString = function(s) {
+var reverseString = function(str) {
     let start = 0;
-    let end = s.length - 1;
+    let end = str.length - 1;
     while(start<end){
-        [s[start],s[end]] = [s[end],s[start]];
+        [str[start],str[end]] = [str[end],str[start]];
     }
-    return s;
+    return str;
 };
